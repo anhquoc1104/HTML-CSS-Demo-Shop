@@ -1,0 +1,32 @@
+.sort__row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort__title{
+  font-size: 2.4rem;
+  outline: none;
+  border-radius: 50px;
+}
+
+.pagination__row{
+  margin: 20px 0;
+}
+
+.pagination__row span{
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #ff523b;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.pagination__row span:hover{
+  background-color: #ff523b;
+  color: #fff;
+}

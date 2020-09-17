@@ -1,0 +1,83 @@
+header{
+  margin: auto;
+  padding: 0 25px;
+  background: radial-gradient(#fff, #ffffcf);
+}
+
+.nav__logo img{
+  width: 60px;
+  height: 60px;
+}
+
+.navbar{
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+  padding: 20px;
+}
+
+.nav__menu{
+  flex: 1;
+  text-align: right;
+}
+
+.nav__menu ul{ 
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav__menu ul li{
+  font-size: 2rem;
+  margin-right: 25px;
+}
+
+.nav__menu a{
+  text-decoration: none;
+  color: #555;
+}
+
+.nav__cart{
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+.header__product--row{
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+}
+
+.header__product--col6{
+  flex-basis: 50%;
+  /* min-width: 300px; */
+  margin: 5px;
+}
+.header__product--col6 h1{
+  font-size: 5rem;
+  line-height: 4rem;
+  margin: 5px 3px;
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.header__product--col6 p{
+  margin: 20px 3px;
+  font-size: 2rem;
+}
+.header__product--col6 img{
+  max-width: 100%;
+}
+
+.header__btn{
+  display: inline-block;
+  margin: 5px 3px;
+  background-color: #ffb100;
+  transition: background 0.5s;
+}
+
+.header__btn:hover{
+  background: #ff7f00;
+}

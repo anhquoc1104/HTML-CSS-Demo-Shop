@@ -1,0 +1,114 @@
+.user {
+  background: radial-gradient(#fff, #ffffcf);
+}
+
+.user__row {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.user__col--6 {
+  flex-basis: 50%;
+}
+
+.user__col--6 img{
+  max-height: 600px;
+  margin-left: 200px;
+}
+
+.user__form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  padding: 20px 0;
+  margin: 50px auto;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.user__form form{
+  max-width: 300px;
+  padding: 0 20px;
+  position: absolute;
+  top: 100px;
+}
+.user__form form input{
+  font-size: 1.5rem;
+  width: 100%;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border: 1px solid #fe3412;
+  border-radius: 10px;
+}
+
+.user__form form input:focus{
+  outline: none;
+  border: 2px solid #fe3412;
+}
+
+.user__form form button{
+  font-size: 1.5rem;
+  background-color: #ee5915;
+  color: var(--text-btn);
+  margin-top: 10px;
+  padding: 5px 8px;
+  border: 2px solid #ee5915;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.user__form form button:focus{
+  outline: none;
+  border: 2px solid #fe3412;
+}
+.user__form form a{
+  text-align: left;
+  font-size: 1.4rem;
+  color: #333;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.user__form--title {
+  margin: 20px;
+}
+
+.user__form--title span{
+  display: inline-block;
+  font-size: 1.7rem;
+  font-weight: bold;
+  width: 100px;
+  padding: 0 10px;
+  color: #555;
+  cursor: pointer;
+}
+
+#indicator{
+  width: 80px;
+  height: 3px;
+  margin-top: 8px;
+  border: none;
+  background-color: #ee5915;
+  transform: translateX(40px);
+  transition: transform 0.5s;
+}
+
+#form__login {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  left: 0px;
+  transition: transform 0.5s;
+}
+
+#form__Register {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  left: 300px;
+  transition: transform 0.5s;
+}
