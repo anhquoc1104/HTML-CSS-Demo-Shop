@@ -17,6 +17,10 @@ body{
   font-family: 'poppins', serif;
 }
 
+a{
+  text-decoration: none;
+}
+
 .btn{
   font-size: 1.7rem;
   text-decoration: none;
