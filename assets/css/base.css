@@ -15,6 +15,7 @@ html {
 
 body {
     font-family: 'poppins', serif;
+    /* overflow: hidden; */
 }
 
 a {
@@ -31,12 +32,4 @@ ul {
     color: var(--text-btn);
     border-radius: 30px;
     padding: 10px 8px;
-}
-
-.wide--1080 {
-    max-width: 1080px;
-}
-
-.wide--1200 {
-    max-width: 1200px;
 }

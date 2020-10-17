@@ -2,4 +2,11 @@
 
 @media (min-width: 740px) {}
 
-@media (max-width: 739px) {}
+@media (max-width: 739px) {
+    .header__product--col h1 {
+        font-size: 3rem;
+    }
+    .header__product--col p {
+        font-size: 1.5rem;
+    }
+}
