@@ -9,26 +9,46 @@
     <link rel="stylesheet" href="./assets/css/body.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/product.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./sources/font-awesome/css/all.min.css">
 </head>
 
 <body>
-    <header>
-        <div class="navbar wide--1200">
-            <div class="nav__logo">
+    <header class="grid">
+        <div class="row navbar">
+            <div class="nav__logo col l-2 m-2 s-2">
                 <a href="./index.html"><img src="./sources/img/logo.png" alt="One Store"></a>
             </div>
-            <nav class="nav__menu">
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./product.html">Product</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                    <li><a href="./user.html">User</a></li>
-                </ul>
+            <nav class="nav__menu col l-10 m-10 s-0">
+                <div class="row nav__menu--row">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./product.html">Product</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./user.html">User</a></li>
+                    </ul>
+                    <a href="./cart.html"><img class="nav__cart" src="./sources/img/header-cart.png" alt="cart"></a>
+                </div>
             </nav>
-            <a href="./cart.html"><img class="nav__cart" src="./sources/img/header-cart.png" alt="cart"></a>
+            <div class="nav__menu--icon col l-0 m-0 s-10">
+                <label for="menu--icon">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <input type="checkbox" name="" id="menu--icon">
+                <div class="nav__menu--icon--row">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./product.html">Product</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./user.html">User</a></li>
+                    </ul>
+                    <a href="./cart.html"><img class="nav__cart" src="./sources/img/header-cart.png" alt="cart"></a>
+                </div>
+                <label class="nav__menu--overlay" for="menu--icon"></label>
+            </div>
         </div>
     </header>
     <main>
@@ -202,9 +222,9 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
-        <div class="footer__row  wide--1200">
-            <div class="footer__col--3 footer__download">
+    <footer class="footer grid">
+        <div class="row footer__row ">
+            <div class="col s-12 m-6 l-3 footer__col footer__download">
                 <h3>Download Our App</h3>
                 <p>Download App for Android and Ios mobile phone</p>
                 <div class="footer__app">
@@ -212,11 +232,11 @@
                     <img src="./sources/img/logo-appstore.png" alt="">
                 </div>
             </div>
-            <div class="footer__col--3 footer__logo">
+            <div class="col s-12 m-6 l-3 footer__col footer__logo">
                 <a href="./index.html"><img src="./sources/img/logo.png" alt="One Store"></a>
                 <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Fashion Accessible to the Many</p>
             </div>
-            <div class="footer__col--3  footer__useful">
+            <div class="col s-12 m-6 l-3 footer__col footer__useful">
                 <h3>Useful Links</h3>
                 <ul>
                     <li>Coupons</li>
@@ -225,7 +245,7 @@
                     <li>Join Affiliate</li>
                 </ul>
             </div>
-            <div class="footer__col--3 footer__follow">
+            <div class="col s-12 m-6 l-3 footer__col footer__follow">
                 <h3>Follow us</h3>
                 <ul>
                     <li>Facebook</li>
